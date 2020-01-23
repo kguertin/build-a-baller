@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+.color-secondary {
+  color: #ffd091;
+}
+
 /* Utiliy Classes */
 .container {
   margin: auto;
@@ -41,6 +45,13 @@ a {
   padding: 50px;
   text-align: center;
   border: 1px solid red;
+}
+
+.flat-box {
+  width: 100%;
+  padding: 30px 20px 10px 20px;
+  border-bottom: 2px solid #333;
+  height: 20%;
 }
 
 .section-height {
@@ -96,8 +107,9 @@ header {
 #showcase{
   color: #f4f4f4;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 200px;
 }
+
 
 /* About Section */
 #about{
@@ -106,8 +118,38 @@ header {
 
 #about .text-lead {
   text-align: center;
-  padding-top: 100px;
+  padding: 60px 0;
 }
+
+#about .about-left {
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 80vh;
+  padding: 15px 20px;
+
+}
+
+#about .about-left img {
+  width: 75%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#about .about-left p {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+#about .about-right {
+  float: right;
+  width: 50%;
+  text-align: center;
+  height: 80vh;
+  padding: 5%;
+}
+
+
 
 /* Features Section */
 
