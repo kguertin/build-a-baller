@@ -174,7 +174,6 @@ header {
 /* Features Section */
 
 #features {
-  margin: 0 15px;
   overflow: auto;
 }
 
@@ -184,7 +183,7 @@ header {
 }
 
 #features i {
-  font-size: 10rem;
+  font-size: 8rem;
   margin-bottom: 35px;
   margin-top: -15px;
 }
@@ -196,6 +195,60 @@ header {
 /* Footer Style */
 
 footer {
-  height: 100vh;
+  height: 50vh;
   background: #ffd091;
+}
+
+footer .footer-left {
+  float: left;
+  width: 50%;
+}
+
+footer .footer-left ul {
+  margin-top: 60px;
+  margin-left: 20px;
+  list-style: none;
+}
+
+footer .footer-left ul li {
+  padding: 15px 10px;
+}
+
+
+footer .footer-left ul a {
+  color:#333;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+footer .footer-left ul a:hover {
+  color:#f4f4f4;
+}
+
+footer .footer-right{
+  float: right;
+}
+
+footer .footer-right .social-nav {
+  list-style-type: none;
+  margin-top: 60px;
+  font-size: 3.0rem;
+}
+
+footer .footer-right .social-nav i {
+  color: #333;
+  margin: 15px 0;
+  margin-right: 30px;
+}
+
+footer .footer-right .social-nav i:hover {
+  color: #f4f4f4;
+}
+
+
+
+footer .copy-text {
+ margin-bottom: 30px;
+  font-size: 1.5rem;
+  color: #333;
 }
