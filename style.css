@@ -44,7 +44,6 @@ a {
   width: 33.3%;
   padding: 50px;
   text-align: center;
-  border: 1px solid red;
 }
 
 .flat-box {
@@ -134,6 +133,7 @@ header {
   width: 75%;
   height: auto;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 #about .about-left p {
@@ -149,13 +149,53 @@ header {
   padding: 5%;
 }
 
+#about .about-right h2 {
+  margin-bottom: 30px;
+}
+
+#about .about-right .flat-box:last-child {
+  border: none;
+}
+
+#about .about-right h3 {
+  display: inline-block;
+  float: left;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+#about .about-right p {
+  float: right;
+  line-height: 1.5rem;
+}
+
 
 
 /* Features Section */
 
-#features .text-lead {
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 50px;
+#features {
+  margin: 0 15px;
+  overflow: auto;
 }
 
+#features .text-lead {
+  text-align: center;
+  margin: 60px 0;
+}
+
+#features i {
+  font-size: 10rem;
+  margin-bottom: 35px;
+  margin-top: -15px;
+}
+
+#features p {
+  line-height: 1.5rem;
+}
+
+/* Footer Style */
+
+footer {
+  height: 100vh;
+  background: #ffd091;
+}
